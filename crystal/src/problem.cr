@@ -3,6 +3,9 @@
 
 require "benchmark"
 
+require "./extensions/*"
+require "./helpers/*"
+
 abstract class Problem
 	# Abstract class for problems
 

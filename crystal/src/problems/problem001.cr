@@ -2,7 +2,6 @@
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
 require "../problem.cr"
-require "../extensions/int.cr"
 
 class Problem001 < Problem
 	@@expect = 233168

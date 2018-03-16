@@ -2,8 +2,6 @@
 #
 
 require "../problem.cr"
-require "../extensions/int.cr"
-require "../helpers/*"
 
 class Problem002 < Problem
 	@@expect = 4613732

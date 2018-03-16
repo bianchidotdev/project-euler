@@ -1,0 +1,13 @@
+name: euler.cr
+version: 0.1.0
+
+authors:
+  - Michael Bianchi <michaeldbianchi@gmail.com>
+
+targets:
+  euler.cr:
+    main: src/euler.cr.cr
+
+crystal: 0.24.2
+
+license: MIT

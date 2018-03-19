@@ -8,8 +8,9 @@ class Problem001 < Problem
 
 	def solve()
 		#generic solve function
-		#(1...10).select{|i| i.divisible_by?(3) || i.divisible_by?(5)}.sum
-		(1...1000).select{|i| i.divisible_by_any?(3, 5)}.sum
+		(1...1000)
+			.select{|i| i.divisible_by_any?(3, 5)}
+			.sum
 	end
 end
 
